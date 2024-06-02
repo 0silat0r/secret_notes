@@ -58,7 +58,7 @@ program = Tk()
 program.geometry("400x800")
 program.title("Secret Notes")
 # Image
-img = Image.open("OIP-2378218113.jpeg")
+img = Image.open("pictures/OIP-2378218113.jpeg")
 resize_img = img.resize((165,140))
 img2 = ImageTk.PhotoImage(resize_img)
 img_lbl = Label(image=img2)
